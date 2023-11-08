@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about {
+    width: 1510px;
+    height: 996px;
+    background-color: #141024;
+}
+.above {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 15px 100px;
+}
+.logotip {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+}
+.content {
+    width: 400px;
+    height: 32px;
+    display: flex;
+    gap: 40px;
+}
+.item_1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.item_1:hover {
+    text-decoration: underline yellow;
+}
+.tel_number {
+    color: #FFF;
+    text-align: right;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 48px */
+    user-select: none;
+    cursor: pointer;
+}
+.tel_number:active {
+    color: red;
+    font-size: 29.9px;
+}
+.wrapper_above {
+    width: 100%;
+    height: 918px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.logotip_1 {
+    color: #FFF;
+font-family: Jost;
+font-size: 70px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 112px */
+}
+.absolute {
+    width: 550px;
+    height: fit-content;
+}
+.text_1 {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+}
+.btn_head {
+    margin-top: 60px;
+}
+.btn_1 {
+    display: inline-flex;
+    padding: 25px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #D52027;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.btn_1:hover {
+    filter: brightness(1.5);
+}
+.btn_1:active {
+    scale: 0.97;
+}
+.img {
+    width: 783px;
+    height: 917.485px;
+    background-image: url(./Group\ 211\ \(1\).png);
+    background-size: cover;
+    margin-bottom: 0;
+}
+.absorb {
+    width: 1127px;
+    height: 200px;
+    margin: 120px 500px 0 200px;
+}
+.abuse {
+    color: #141024;
+font-family: Jost;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.robo {
+    color: #141024;
+font-family: Jost;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 48px */
+}
+.accept {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+.num_1 {
+    color: #D52027;
+    font-family: Jost;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 112px */
+}
+.text_accept {
+    color: rgba(20, 16, 36, 0.70);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.accident {
+    width: 100%;
+    height: 485px;
+    background-color: #F9F9F9;
+    margin-top: 240px;
+    padding-top: 100px;
+}
+.text_accident_1 {
+    color: #141024;
+font-family: Jost;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 80px */
+margin-left: 200px;
+}
+.dsp_text {
+    width: 360px;
+    height: 100px;
+}
+.dsp {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.dsp_text1 {
+    color: #141024;
+font-family: Jost;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 38.4px */
+}
+.dsp_text2 {
+    color: rgba(20, 16, 36, 0.70);
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
