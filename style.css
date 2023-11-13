@@ -387,11 +387,14 @@ user-select: none;
         height: 420px;
     }
     .trainer_part {
-        width: 300px;
+        width: fit-content;
+        height: fit-content;
         margin-top: 100px;
     }
     .dsp_img {
         display: block;
+        width: fit-content;
+        height: fit-content;
         margin-left: 30px;
     }
     .dsp_text {
@@ -414,5 +417,16 @@ margin-left: 30px;
         margin-top: 800px;
         padding: 0;
         height: fit-content;
+    }
+    .tel_number:active {
+        font-size: 7.9px;
+    }
+}
+@media(max-width: 769px) {
+    .accident {
+        width: 1500px;
+    }
+    .text_accident_1 {
+    font-size: 40px;
     }
 }
